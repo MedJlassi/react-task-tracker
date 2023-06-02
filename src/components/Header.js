@@ -1,13 +1,18 @@
 import PropTypes from 'prop-types'
+import Button from './Button'
 
-
-const Header = (props) => {
+const Header = ({title,onClickHandler,formShown}) => {
     return (
         <header className="header">
             <h1 /*style={headerStyle} */>
-                {props.title}
+                Task Tracker
             </h1>
-            <button className="btn">Add</button>
+            <Button
+                color={formShown ? 'red' :'green'}
+                text={formShown ? 'close' : 'add'}
+                onClickHandler={onClickHandler}
+                
+            />
         </header>
     )
 }

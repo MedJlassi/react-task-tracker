@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
-
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,7 +6,7 @@
 
 
 bady {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 
@@ -20,6 +17,7 @@ bady {
   min-height: 300px;
   border: 1px solid steelblue;
   border-radius: 5px;
+  padding: 25px;
 }
 
 .header {
@@ -27,6 +25,7 @@ bady {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+
 }
 
 .btn {
